@@ -14,3 +14,13 @@ const updateTime = () => {
   window.requestAnimationFrame(updateTime);
 };
 updateTime();
+
+const showTime = () => {
+  let day = new Date();
+  let hh = day.getHours() * 30;
+  let mm = day.getMinutes() * deg;
+  let ss = day.getSeconds() * deg;
+  const time = day.toString().split(' ')[4];
+  const timeNode = document.querySelector('#time');
+  timeNode.innerHTML = time
+}
