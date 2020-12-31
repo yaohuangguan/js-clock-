@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #eef5db;
+  background: linear-gradient(to right, rgb(23, 20, 26), rgb(31, 27, 34));
 }
 .container {
   display: flex;
@@ -18,16 +18,16 @@ body {
   margin-top: 40px;
 }
 .clock {
-  width: 550px;
-  height: 550px;
+  width: 650px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: url(images/clock.png);
   background-size: cover;
   border-radius: 50%;
-  box-shadow: #c7efcf;
-  background-color: #c7efcf;
+  box-shadow: linear-gradient(to right, rgb(23, 20, 26), rgb(31, 27, 34));
+  background-color: linear-gradient(to right, rgb(23, 20, 26), rgb(31, 27, 34));
 }
 .clock:before {
   content: "";
@@ -97,5 +97,5 @@ body {
 #time {
   font-size: 40px;
   text-align: center;
-  color: #392f5a;
+  color: #fff;
 }
